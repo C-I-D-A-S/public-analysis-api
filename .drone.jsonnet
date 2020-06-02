@@ -1,6 +1,6 @@
 local Pipeline = {
   kind: "pipeline",
-  name: "example-pipeline",
+  name: "qol-pipeline",
   steps: [
     {
       detach: true,

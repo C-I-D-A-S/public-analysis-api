@@ -18,6 +18,11 @@ black = "==19.3b0"
 requests = "==2.21.0"
 loguru = "==0.4.1"
 python-dotenv = "==0.13.0"
+Flask = "==1.1.1"
+Flask-Migrate = "==2.5.2"
+Flask-RESTful = "==0.3.7"
+Werkzeug = "==0.16.0"
+confluent-kafka = "==1.0.0"
 
 [requires]
 python_version = "3.7"
