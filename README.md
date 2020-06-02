@@ -1,6 +1,6 @@
 # Public Analysis API
 
-An API Endpoints for QoL Requests
+API Endpoints for transferring request jobs from client to Kafka
 
 ## Getting Started
 
@@ -22,7 +22,7 @@ pipenv install --dev
 
 pre-commit install
 
-pipenv run src/main.py
+pipenv run src/app.py
 ```
 
 ### Running Production
