@@ -1,6 +1,6 @@
-# Python-Project-Template
+# Public Analysis API
 
-A startup template
+An API Endpoints for QoL Requests
 
 ## Getting Started
 
