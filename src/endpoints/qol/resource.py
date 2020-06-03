@@ -28,10 +28,10 @@ def get_kafka_msg(args):
             "job_id": job_id,
             "job_config": {
                 "request_time": datetime.strftime(
-                    (datetime.now()), app.config["DATE_TIME"]
+                    (datetime.utcnow()), app.config["DATE_TIME"]
                 ),
                 "deadline": datetime.strftime(
-                    (datetime.now() + timedelta(seconds=args.deadline)),
+                    (datetime.utcnow() + timedelta(seconds=args.deadline)),
                     app.config["DATE_TIME"],
                 ),
             },
